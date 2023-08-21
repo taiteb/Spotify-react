@@ -4,7 +4,6 @@ import Playlists from './components/Playlists'
 function App() {
   const authEndpoint = "https://accounts.spotify.com/authorize"
   const clientID = 'd9b7108468c747c99a4b628d00f28873'
-  // const clientSecret = 'c9810aaff96d4d86abd2b9d813f8cc5d'
   const redirectURI = 'http://localhost:5173/'
 
   const scopes = [
